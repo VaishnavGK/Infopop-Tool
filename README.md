@@ -1,2 +1,2 @@
 # Infopop-Tool
-"InfoPop" is a powerful Chrome extension that provides instant, AI-powered answers for any text you select on a webpage. Simply highlight a word or phrase, and a small "Ask AI" button appears. 
+"InfoPop" is a powerful Chrome extension that provides instant, AI-powered answers for any text you select on a webpage. Simply highlight a word or phrase, and a small "Ask AI" button appears. Click the button to get a quick and concise explanation directly in a stylish, black-bordered popup. Powered by OpenRouter's API, InfoPop is the perfect tool for students, researchers, or anyone who wants to get a deeper understanding of the content they are reading without leaving the page.
