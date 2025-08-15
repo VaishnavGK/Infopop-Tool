@@ -1,0 +1,60 @@
+#qwz-btn {
+  position: absolute;
+  display: none;
+  background: #111;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 2147483647; /* sit on top */
+}
+
+#qwz-popup {
+  position: fixed;
+  display: none;
+  max-width: 380px;
+  min-width: 260px;
+  background: #fff;
+  color: #111;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+  font-size: 14px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  z-index: 2147483647;
+}
+
+#qwz-popup header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#qwz-close {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#qwz-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ddd;
+  border-top-color: #007bff; /* This line is key */
+  border-radius: 50%;
+  animation: qwzspin 0.8s linear infinite;
+}
+
+@keyframes qwzspin { to { transform: rotate(360deg); } }
+
